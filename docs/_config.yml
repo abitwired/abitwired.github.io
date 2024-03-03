@@ -16,7 +16,7 @@
 title: Sean Taylor - Software Developer
 email: DM for email
 description: >- # this means to ignore newlines until "baseurl:"
-  Sean Taylor's personal website and blog. I'm a software developer with a passion for learning and sharing knowledge. AI generated because if I was honest about myself, I'd never get a job.
+  Personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: seankimbletaylor

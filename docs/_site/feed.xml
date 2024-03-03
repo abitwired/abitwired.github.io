@@ -1,13 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-02T20:41:22-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sean Taylor - Software Developer</title><subtitle>Sean Taylor&apos;s personal website and blog. I&apos;m a software developer with a passion for learning and sharing knowledge. AI generated because if I was honest about myself, I&apos;d never get a job.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/03/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-03-02T20:31:01-08:00</published><updated>2024-03-02T20:31:01-08:00</updated><id>http://localhost:4000/jekyll/update/2024/03/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/03/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-02T23:10:31-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sean Taylor - Software Developer</title><subtitle>Personal blog.</subtitle><entry><title type="html">Spider Robot Build</title><link href="http://localhost:4000/random/2024/03/02/spider.html" rel="alternate" type="text/html" title="Spider Robot Build" /><published>2024-03-02T20:31:01-08:00</published><updated>2024-03-02T20:31:01-08:00</updated><id>http://localhost:4000/random/2024/03/02/spider</id><content type="html" xml:base="http://localhost:4000/random/2024/03/02/spider.html"><![CDATA[<script type="module" src="http://localhost:4000/assets/js/2024-03-02-spider.js"></script>
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>In my limited free time, I’m working on a basic robotic spider. The spider is 3D printed uses the local library’s MakerBot 3000 and is controlled by an Arduino. The tools I’ve been using are:</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<ul>
+  <li>FreeCAD</li>
+  <li>LibrePCB</li>
+  <li>Arduino IDE</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>As of now, I’m still familiarizing myself with 3D printing. I’ve printed several test components, but now I’m ready to move onto my first real build. I’m aware that these models exist all over the internet. I’m not trying to reinvent the wheel, but I am trying to learn how to design and build a robot from scratch. I’m also trying to learn how to use FreeCAD and LibrePCB. Eventually, I’ll probably use these skills to build more basic CAD models for miscellaneous things in my home, but a robot gives me a clear goal to work towards.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Here are some of the rudimentary designs I’m working with:</p>
+
+<h2 id="spider-chassis">Spider Chassis</h2>
+
+<p>A simple 3D printed chassis for the spider. The chassis is designed to hold the Arduino and the servo motors. The servo motor will be screwed into the chassis and the Arduino will be mounted on top of the chassis.</p>
+
+<div class="threejs chassis threejs-wrapper"></div>
+
+<h3 id="spider-leg">Spider Leg</h3>
+
+<p>A 3D printed leg for the spider. The leg is designed to hold the servo motor for the leg and the foot.</p>
+
+<div class="threejs legHousing threejs-wrapper"></div>
+
+<h3 id="spider-foot">Spider Foot</h3>
+
+<p>A 3D printed foot for the spider. The foot is designed to hold the spider off of the ground. The servo motor will be screwed into the foot and the foot will be mounted on the leg.</p>
+
+<div class="threejs legExtension threejs-wrapper"></div>
+
+<h3 id="spider-servo-motor">Spider Servo Motor</h3>
+
+<p>I plan on using an SG90 servo motor for the spider. The servo motor will be used to control the movement of the spider’s legs. The servo motor will be mounted on the leg and the foot.</p>]]></content><author><name></name></author><category term="random" /><summary type="html"><![CDATA[]]></summary></entry></feed>
