@@ -5,6 +5,10 @@ date: 2024-04-22 12:52:00 -0700
 categories: random
 ---
 
+<div>
+<img class="base-photo" src="/assets/images/react-miami/react-miami-shirt.png">
+</div>
+
 React Miami was a great conference this year. I learned a lot about React and made some new friends. I hope to attend next year! The conference was held at the Miami Beach Convention Center. The Miami Beach Convention Center was spacious and full of vendors from the overlapping eMerge conference. The second day of the conference was held at the Mona Commons, which was significantly smaller. The setup wasn't as nice as the convention center, but the talks were still great and everyone seemed to make the most of the equipment available.
 
 ## Day 0
@@ -69,3 +73,7 @@ Keith had a fun presentation about Expo. If you've ever used Expo for more than 
 ## Conclusion
 
 React Miami was a great conference. I got sick on the way home and I'm still recovering (flying post-COVID always feels like a gamble). I would definitely attend the conference again.
+
+<a href="https://www.reactmiami.com/" target="_blank">
+  <img class="base-photo" src="/assets/images/react-miami/react-miami-logo.jpg">
+</a>

@@ -194,3 +194,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+.nav-favicon { float: left; padding-right: 1rem; padding-top: 4px; }
+
+.base-photo { border-radius: 25px; margin: 0 auto; display: block; aspect-ratio: 1/1; margin-bottom: 1rem; }
