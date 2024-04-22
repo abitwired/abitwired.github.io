@@ -3,10 +3,3 @@
 ---
 
 @import "minima";
-
-.threejs-wrapper {
-  & > canvas {
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-}
