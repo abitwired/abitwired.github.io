@@ -6,7 +6,7 @@ categories: random
 ---
 
 <div>
-<img class="base-photo" src="/assets/images/react-miami/react-miami-shirt.png">
+<img class="base-photo" src="/assets/images/react-miami/react-miami-shirt.jpg">
 </div>
 
 React Miami was a great conference this year. I learned a lot about React and made some new friends. I hope to attend next year! The conference was held at the Miami Beach Convention Center. The Miami Beach Convention Center was spacious and full of vendors from the overlapping eMerge conference. The second day of the conference was held at the Mona Commons, which was significantly smaller. The setup wasn't as nice as the convention center, but the talks were still great and everyone seemed to make the most of the equipment available.
